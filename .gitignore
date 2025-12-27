@@ -1,0 +1,63 @@
+# ==============================================================================
+# REPOSITORY: @Z
+# FILE: .gitignore ⭕️
+# ARCHITECT: Shakti Singh | IDENTITY: Genesisgraphy ⭕️
+# AUTHORITY: 1-LEAD | STATUS: PERIMETER_SHIELD_ACTIVE
+# ==============================================================================
+
+# --- [01] SHAKTI INTEL SECRETS (NEVER COMMIT) ---
+.env
+.env.*
+secrets.json
+*.pem
+*.key
+*.keystore
+auth_tokens/
+config_local.py
+
+# --- [02] QAi & BIG DATA ARTIFACTS ---
+# Exclude heavy weights and training data to keep the Monolith lean
+*.weights
+*.h5
+*.onnx
+*.pb
+datasets/
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# --- [03] MOBILE & HARDWARE BRIDGE (ShaktiMobileLink) ---
+.gradle/
+build/
+local.properties
+*.apk
+*.aar
+*.dex
+.cxx/
+captures/
+.externalNativeBuild/
+
+# --- [04] INFRASTRUCTURE & LOGGING ---
+*.log
+logs/
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+node_modules/
+dist/
+
+# --- [05] OPERATING SYSTEM NOISE ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.swp
+*~
+
+# ==============================================================================
+# END OF SHIELD: @Z PERIMETER SECURED ⭕️
+# ==============================================================================
